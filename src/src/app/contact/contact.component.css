@@ -1,0 +1,46 @@
+p {
+  font-family: Lato;
+}
+
+main{
+    padding-top:10px;
+}
+
+mat-card {
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+}
+.container {
+  padding: 60px 1rem;
+}
+
+h1{
+  color: #3caeb4;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align:center;
+}
+
+.input-full-width {
+  width: 100%;
+}
+
+
+
+/*
+
+
+
+
+
+.form-full-width {
+    min-width: 150px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.input-full-width {
+    max-width:500px;
+}
+*/

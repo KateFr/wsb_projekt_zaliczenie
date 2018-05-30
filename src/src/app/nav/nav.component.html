@@ -1,0 +1,33 @@
+<header class="navbar navbar-default navbar-static-top" >
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"  (click)="isCollapsed = !isCollapsed" aria-expanded="false" >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a class="navbar-brand" routerLink="/">BRAND</a>
+		</div>
+
+    <div id="menu" class="navbar-collapse collapse" [collapse]=isCollapsed>
+		<ul class="nav navbar-nav">
+			<li routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+				<a (click)="isCollapsed = !isCollapsed">Strona głowna</a>
+			</li>
+			<li routerLink="/uslugi" routerLinkActive="active">
+				<a (click)="isCollapsed = !isCollapsed">Usługi</a>
+			</li>
+      <li routerLink="/galeria" routerLinkActive="active">
+				<a (click)="isCollapsed = !isCollapsed">Galeria</a>
+			</li>
+      <li routerLink="/dojazd" routerLinkActive="active">
+				<a (click)="isCollapsed = !isCollapsed">Dojazd</a>
+			</li>
+			<li routerLink="/kontakt" routerLinkActive="active">
+				<a (click)="isCollapsed = !isCollapsed">Kontakt</a>
+			</li>
+		</ul>
+    </div>
+
+	</div>
+</header>

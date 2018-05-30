@@ -1,4 +1,7 @@
 # angular-wsb-wizytowka
+Final project for WSB Fronted Programmer course.
+Developed on stackblizt
+https://stackblitz.com/edit/angular-wsb-wizytowka
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
